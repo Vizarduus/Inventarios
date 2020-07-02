@@ -1,2 +1,2 @@
 # Inventarios
-#validcion de repositorio
+#validacion de repositorio
