@@ -1,2 +1,3 @@
-# Inventarios
+#Inventarios
 #validacion de repositorio
+#Inicialmente la idea era realizar un inventario donde se registrarán activos y se manera un historial del mismo, pero no le sacaba el máximo rendimiento al potencial del desarrollo móvil, así que decidí inclinarme un registro de usuarios, la app consiste de manear un registro de las personas que ingresan al cuarto de servidores, la idea es capturar el nombre la empresa, el motivo, la fecha, la firma y posiblemente la foto de la persona que ingresa.  
