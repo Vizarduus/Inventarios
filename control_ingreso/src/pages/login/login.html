@@ -1,0 +1,54 @@
+<!--
+  Generated template for the LoginPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.https://image.flaticon.com/icons/png/512/149/149071.png
+-->
+<ion-content>
+
+  <div class="container">
+
+    <div class="header">
+      <div class="title">
+        <img src="https://webstockreview.net/images/lock-clipart-data-security-16.png">
+      </div>
+      <h3>Bienvenido!</h3>
+      <p>Complete los datos para iniciar sesion</p>
+    </div>
+
+    <div class="body">
+
+      <ion-list>
+
+        <ion-item>
+          <ion-label floating>Usuario</ion-label>
+          <ion-input placeholder="Usuario" type="text" [(ngModel)]="usuario"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label floating>Contraseña</ion-label>
+          <ion-input placeholder="Contraseña" type="password" [(ngModel)]="clave"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <button ion-button block (click)="iniciarSesion()" >Iniciar sesión</button>
+          </ion-item>   
+
+      </ion-list>
+
+      <ion-row>
+        <ion-col text-center>
+          <p>Si olvido su clave o usuario, por favor comuniquese con el area de soporte</p>
+        </ion-col>
+      </ion-row>
+      
+        
+    </div>
+
+    <div class="footer">
+      Grupo Coomeva
+    </div>
+
+  </div>
+
+</ion-content>

@@ -1,0 +1,7 @@
+{
+  "name": "control_ingreso",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}
