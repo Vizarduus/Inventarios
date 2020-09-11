@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Control de Visitas</title>
+    <!--  Required meta tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--  Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" />
+    <!--  Bootstrap CSS -->
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h1 class="display-4">Registro de control de visitas!</h1>
+            <p class="lead">Hola Mundo :D:</p>
+            <h1>Hola Mundo</h1>
+            <table border=1>
+                <thead>
+                    <th>Nombre</th>
+                    <th>Codigo</th>
+                    <th>Curso</th>
+                </thead>
+                <tbody>
+                    {% for dato in registros %}
+                    <tr>
+                        <td>{{ dato.nombre }}</td>
+                        <td>{{ dato.cedula }}</td>
+                        <td>{{ dato.empresa }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+
+
+        </div>
+    </div>
+    <!--Optional JavaScript
+        jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+    </body>
+
+    </html>
